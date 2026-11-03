@@ -1,0 +1,34 @@
+name: guncelle
+on:
+  schedule:
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: guncelle
+  cancel-in-progress: false
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    env:
+      KAYNAK_UA: ${{ secrets.KAYNAK_UA }}
+    steps:
+      # Sources want a contact User-Agent; until the KAYNAK_UA secret exists every run is a no-op.
+      - if: env.KAYNAK_UA == ''
+        run: echo "KAYNAK_UA secret is not set, skipping."
+      - if: env.KAYNAK_UA != ''
+        uses: actions/checkout@v5
+      - if: env.KAYNAK_UA != ''
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - if: env.KAYNAK_UA != ''
+        run: node scripts/guncelle.mjs
+      - if: env.KAYNAK_UA != ''
+        name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add takvim.json
+          git diff --cached --quiet || (git commit -m "Güncelle: $(date -u +%Y-%m-%dT%H:%MZ)" && git push)
