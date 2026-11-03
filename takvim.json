@@ -1,5 +1,5 @@
 {
-  "guncellendi": "2026-11-03T17:28:05.348Z",
+  "guncellendi": "2026-11-03T17:30:13.694Z",
   "olaylar": [
     {
       "id": "nfp-2026-11-06",
@@ -33,7 +33,7 @@
     },
     {
       "id": "fomc-tutanak-2026-11-18",
-      "kod": "fomc",
+      "kod": "fomc_tutanak",
       "ulke": "US",
       "olay": "FOMC toplantı tutanakları",
       "kurum": "Federal Rezerv (Fed)",
@@ -123,7 +123,7 @@
     },
     {
       "id": "fomc-tutanak-2026-12-30",
-      "kod": "fomc",
+      "kod": "fomc_tutanak",
       "ulke": "US",
       "olay": "FOMC toplantı tutanakları",
       "kurum": "Federal Rezerv (Fed)",
