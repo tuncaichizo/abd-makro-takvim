@@ -89,9 +89,9 @@ function parseFed(text) {
   const out = [];
   for (const e of data.events) {
     if (e.type !== 'FOMC') continue;
-    let olay, onem, prefix;
-    if (e.title === 'FOMC Meeting') { olay = 'FOMC faiz kararı'; onem = 'yuksek'; prefix = 'fomc'; }
-    else if (e.title === 'FOMC Minutes') { olay = 'FOMC toplantı tutanakları'; onem = 'orta'; prefix = 'fomc-tutanak'; }
+    let olay, onem, prefix, kod;
+    if (e.title === 'FOMC Meeting') { olay = 'FOMC faiz kararı'; onem = 'yuksek'; prefix = 'fomc'; kod = 'fomc'; }
+    else if (e.title === 'FOMC Minutes') { olay = 'FOMC toplantı tutanakları'; onem = 'orta'; prefix = 'fomc-tutanak'; kod = 'fomc_tutanak'; }
     else continue;
     const mm = /^(\d{4})-(\d{2})$/.exec(e.month || '');
     const nums = String(e.days || '').match(/\d+/g);
@@ -101,7 +101,7 @@ function parseFed(text) {
     if (tm[3].toLowerCase() === 'p') h += 12;
     const ms = etToUtc(+mm[1], +mm[2], +nums[nums.length - 1], h, +tm[2]);
     if (ms === null) continue;
-    out.push({ id: `${prefix}-${etDate(ms)}`, kod: 'fomc', ulke: 'US', olay, kurum: 'Federal Rezerv (Fed)', tarih_utc: isoZ(ms), onem, kaynak_link: FED_LINK });
+    out.push({ id: `${prefix}-${etDate(ms)}`, kod, ulke: 'US', olay, kurum: 'Federal Rezerv (Fed)', tarih_utc: isoZ(ms), onem, kaynak_link: FED_LINK });
   }
   return out;
 }
@@ -157,7 +157,7 @@ function parseBea(text) {
 }
 
 const SOURCES = [
-  { name: 'Fed', url: 'https://www.federalreserve.gov/json/calendar.json', parse: parseFed, kods: ['fomc'] },
+  { name: 'Fed', url: 'https://www.federalreserve.gov/json/calendar.json', parse: parseFed, kods: ['fomc', 'fomc_tutanak'] },
   { name: 'BLS', url: 'https://www.bls.gov/schedule/news_release/bls.ics', parse: parseBls, kods: ['cpi', 'ppi', 'nfp'] },
   { name: 'BEA', url: 'https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics', parse: parseBea, kods: ['gdp', 'pce'] },
 ];
