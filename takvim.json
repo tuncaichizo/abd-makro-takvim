@@ -1,6 +1,16 @@
 {
-  "guncellendi": "2026-11-03T17:30:13.694Z",
+  "guncellendi": "2026-11-03T17:50:01.348Z",
   "olaylar": [
+    {
+      "id": "tufe-2026-11-03",
+      "kod": "tufe",
+      "ulke": "TR",
+      "olay": "Türkiye enflasyonu (TÜFE) - Ekim 2026",
+      "kurum": "Türkiye İstatistik Kurumu (TÜİK)",
+      "tarih_utc": "2026-11-03T07:00:00Z",
+      "onem": "yuksek",
+      "kaynak_link": "https://www.tuik.gov.tr/Kurumsal/Veri_Takvimi"
+    },
     {
       "id": "nfp-2026-11-06",
       "kod": "nfp",
@@ -62,6 +72,36 @@
       "kaynak_link": "https://www.bea.gov/news/schedule"
     },
     {
+      "id": "issizlik_tr-2026-11-30",
+      "kod": "issizlik_tr",
+      "ulke": "TR",
+      "olay": "Türkiye işgücü istatistikleri (işsizlik) - Ekim 2026",
+      "kurum": "Türkiye İstatistik Kurumu (TÜİK)",
+      "tarih_utc": "2026-11-30T07:00:00Z",
+      "onem": "orta",
+      "kaynak_link": "https://www.tuik.gov.tr/Kurumsal/Veri_Takvimi"
+    },
+    {
+      "id": "gsyh_tr-2026-12-01",
+      "kod": "gsyh_tr",
+      "ulke": "TR",
+      "olay": "Türkiye GSYH (çeyreklik) - III. Çeyrek: Temmuz-Eylül 2026",
+      "kurum": "Türkiye İstatistik Kurumu (TÜİK)",
+      "tarih_utc": "2026-12-01T07:00:00Z",
+      "onem": "orta",
+      "kaynak_link": "https://www.tuik.gov.tr/Kurumsal/Veri_Takvimi"
+    },
+    {
+      "id": "tufe-2026-12-03",
+      "kod": "tufe",
+      "ulke": "TR",
+      "olay": "Türkiye enflasyonu (TÜFE) - Kasım 2026",
+      "kurum": "Türkiye İstatistik Kurumu (TÜİK)",
+      "tarih_utc": "2026-12-03T07:00:00Z",
+      "onem": "yuksek",
+      "kaynak_link": "https://www.tuik.gov.tr/Kurumsal/Veri_Takvimi"
+    },
+    {
       "id": "nfp-2026-12-04",
       "kod": "nfp",
       "ulke": "US",
@@ -80,6 +120,16 @@
       "tarih_utc": "2026-12-09T19:00:00Z",
       "onem": "yuksek",
       "kaynak_link": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "id": "ppk-2026-12-10",
+      "kod": "ppk",
+      "ulke": "TR",
+      "olay": "TCMB faiz kararı (PPK)",
+      "kurum": "Türkiye Cumhuriyet Merkez Bankası (TCMB)",
+      "tarih_utc": "2026-12-10T11:00:00Z",
+      "onem": "yuksek",
+      "kaynak_link": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Takvim"
     },
     {
       "id": "cpi-2026-12-10",
@@ -120,6 +170,16 @@
       "tarih_utc": "2026-12-23T13:30:00Z",
       "onem": "yuksek",
       "kaynak_link": "https://www.bea.gov/news/schedule"
+    },
+    {
+      "id": "issizlik_tr-2026-12-30",
+      "kod": "issizlik_tr",
+      "ulke": "TR",
+      "olay": "Türkiye işgücü istatistikleri (işsizlik) - Kasım 2026",
+      "kurum": "Türkiye İstatistik Kurumu (TÜİK)",
+      "tarih_utc": "2026-12-30T07:00:00Z",
+      "onem": "orta",
+      "kaynak_link": "https://www.tuik.gov.tr/Kurumsal/Veri_Takvimi"
     },
     {
       "id": "fomc-tutanak-2026-12-30",
