@@ -1,1 +1,135 @@
-{ "guncellendi": null, "olaylar": [] }
+{
+  "guncellendi": "2026-11-03T17:28:05.348Z",
+  "olaylar": [
+    {
+      "id": "nfp-2026-11-06",
+      "kod": "nfp",
+      "ulke": "US",
+      "olay": "ABD tarım dışı istihdam ve işsizlik oranı",
+      "kurum": "ABD Çalışma İstatistikleri Bürosu (BLS)",
+      "tarih_utc": "2026-11-06T13:30:00Z",
+      "onem": "yuksek",
+      "kaynak_link": "https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "id": "cpi-2026-11-10",
+      "kod": "cpi",
+      "ulke": "US",
+      "olay": "ABD enflasyonu (TÜFE / CPI)",
+      "kurum": "ABD Çalışma İstatistikleri Bürosu (BLS)",
+      "tarih_utc": "2026-11-10T13:30:00Z",
+      "onem": "yuksek",
+      "kaynak_link": "https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "id": "ppi-2026-11-13",
+      "kod": "ppi",
+      "ulke": "US",
+      "olay": "ABD üretici fiyatları (ÜFE / PPI)",
+      "kurum": "ABD Çalışma İstatistikleri Bürosu (BLS)",
+      "tarih_utc": "2026-11-13T13:30:00Z",
+      "onem": "orta",
+      "kaynak_link": "https://www.bls.gov/schedule/news_release/ppi.htm"
+    },
+    {
+      "id": "fomc-tutanak-2026-11-18",
+      "kod": "fomc",
+      "ulke": "US",
+      "olay": "FOMC toplantı tutanakları",
+      "kurum": "Federal Rezerv (Fed)",
+      "tarih_utc": "2026-11-18T19:00:00Z",
+      "onem": "orta",
+      "kaynak_link": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "id": "gdp-2026-11-25",
+      "kod": "gdp",
+      "ulke": "US",
+      "olay": "ABD GSYH, ikinci tahmin (2026 3. çeyrek)",
+      "kurum": "ABD Ekonomik Analiz Bürosu (BEA)",
+      "tarih_utc": "2026-11-25T13:30:00Z",
+      "onem": "orta",
+      "kaynak_link": "https://www.bea.gov/news/schedule"
+    },
+    {
+      "id": "pce-2026-11-25",
+      "kod": "pce",
+      "ulke": "US",
+      "olay": "ABD kişisel gelir ve harcamalar (PCE) - Ekim 2026",
+      "kurum": "ABD Ekonomik Analiz Bürosu (BEA)",
+      "tarih_utc": "2026-11-25T13:30:00Z",
+      "onem": "yuksek",
+      "kaynak_link": "https://www.bea.gov/news/schedule"
+    },
+    {
+      "id": "nfp-2026-12-04",
+      "kod": "nfp",
+      "ulke": "US",
+      "olay": "ABD tarım dışı istihdam ve işsizlik oranı",
+      "kurum": "ABD Çalışma İstatistikleri Bürosu (BLS)",
+      "tarih_utc": "2026-12-04T13:30:00Z",
+      "onem": "yuksek",
+      "kaynak_link": "https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "id": "fomc-2026-12-09",
+      "kod": "fomc",
+      "ulke": "US",
+      "olay": "FOMC faiz kararı",
+      "kurum": "Federal Rezerv (Fed)",
+      "tarih_utc": "2026-12-09T19:00:00Z",
+      "onem": "yuksek",
+      "kaynak_link": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "id": "cpi-2026-12-10",
+      "kod": "cpi",
+      "ulke": "US",
+      "olay": "ABD enflasyonu (TÜFE / CPI)",
+      "kurum": "ABD Çalışma İstatistikleri Bürosu (BLS)",
+      "tarih_utc": "2026-12-10T13:30:00Z",
+      "onem": "yuksek",
+      "kaynak_link": "https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "id": "ppi-2026-12-15",
+      "kod": "ppi",
+      "ulke": "US",
+      "olay": "ABD üretici fiyatları (ÜFE / PPI)",
+      "kurum": "ABD Çalışma İstatistikleri Bürosu (BLS)",
+      "tarih_utc": "2026-12-15T13:30:00Z",
+      "onem": "orta",
+      "kaynak_link": "https://www.bls.gov/schedule/news_release/ppi.htm"
+    },
+    {
+      "id": "gdp-2026-12-23",
+      "kod": "gdp",
+      "ulke": "US",
+      "olay": "ABD GSYH, üçüncü tahmin (2026 3. çeyrek)",
+      "kurum": "ABD Ekonomik Analiz Bürosu (BEA)",
+      "tarih_utc": "2026-12-23T13:30:00Z",
+      "onem": "orta",
+      "kaynak_link": "https://www.bea.gov/news/schedule"
+    },
+    {
+      "id": "pce-2026-12-23",
+      "kod": "pce",
+      "ulke": "US",
+      "olay": "ABD kişisel gelir ve harcamalar (PCE) - Kasım 2026",
+      "kurum": "ABD Ekonomik Analiz Bürosu (BEA)",
+      "tarih_utc": "2026-12-23T13:30:00Z",
+      "onem": "yuksek",
+      "kaynak_link": "https://www.bea.gov/news/schedule"
+    },
+    {
+      "id": "fomc-tutanak-2026-12-30",
+      "kod": "fomc",
+      "ulke": "US",
+      "olay": "FOMC toplantı tutanakları",
+      "kurum": "Federal Rezerv (Fed)",
+      "tarih_utc": "2026-12-30T19:00:00Z",
+      "onem": "orta",
+      "kaynak_link": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    }
+  ]
+}
