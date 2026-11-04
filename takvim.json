@@ -1,16 +1,6 @@
 {
-  "guncellendi": "2026-11-03T17:50:01.348Z",
+  "guncellendi": "2026-11-04T12:59:17.625Z",
   "olaylar": [
-    {
-      "id": "tufe-2026-11-03",
-      "kod": "tufe",
-      "ulke": "TR",
-      "olay": "Türkiye enflasyonu (TÜFE) - Ekim 2026",
-      "kurum": "Türkiye İstatistik Kurumu (TÜİK)",
-      "tarih_utc": "2026-11-03T07:00:00Z",
-      "onem": "yuksek",
-      "kaynak_link": "https://www.tuik.gov.tr/Kurumsal/Veri_Takvimi"
-    },
     {
       "id": "nfp-2026-11-06",
       "kod": "nfp",
