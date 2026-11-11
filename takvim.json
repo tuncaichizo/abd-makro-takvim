@@ -1,16 +1,6 @@
 {
-  "guncellendi": "2026-11-07T11:44:12.654Z",
+  "guncellendi": "2026-11-11T12:43:49.060Z",
   "olaylar": [
-    {
-      "id": "cpi-2026-11-10",
-      "kod": "cpi",
-      "ulke": "US",
-      "olay": "ABD enflasyonu (TÜFE / CPI)",
-      "kurum": "ABD Çalışma İstatistikleri Bürosu (BLS)",
-      "tarih_utc": "2026-11-10T13:30:00Z",
-      "onem": "yuksek",
-      "kaynak_link": "https://www.bls.gov/schedule/news_release/cpi.htm"
-    },
     {
       "id": "ppi-2026-11-13",
       "kod": "ppi",
